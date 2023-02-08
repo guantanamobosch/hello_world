@@ -593,16 +593,16 @@
 // -------------------------------------
 // 🛶 Setting field widths
 
-#include <iostream>
-#include <iomanip>
-using namespace std;
+// #include <iostream>
+// #include <iomanip>
+// using namespace std;
 
-int main()
-{
-    cout << '|' << setw(6) << 'X' << '|';
-    cout << fixed << setprecision(2)
-         << setw(10) << 123.4 << endl
-         << "1234567890" << endl;
+// int main()
+// {
+//     cout << '|' << setw(6) << 'X' << '|';
+//     cout << fixed << setprecision(2)
+//          << setw(10) << 123.4 << endl
+//          << "1234567890" << endl;
 
-    return 0;
-}
+//     return 0;
+// }
