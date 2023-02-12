@@ -611,37 +611,37 @@
 // 🛶 Reads a char and outputs its
 // octal, decimal, and hexadecimal code
 
-#include <iostream>
-#include <iomanip>
+// #include <iostream>
+// #include <iomanip>
 
-#include <string>
-using namespace std;
+// #include <string>
+// using namespace std;
 
-int main()
-{
-    int number = ' ';
+// int main()
+// {
+//     int number = ' ';
 
-    cout << "The white space code is as follows: "
-         << number << endl;
+//     cout << "The white space code is as follows: "
+//          << number << endl;
 
-    char ch;
-    string prompt =
-        "\nPlease enter a character followed by "
-        " <return>: ";
+//     char ch;
+//     string prompt =
+//         "\nPlease enter a character followed by "
+//         " <return>: ";
 
-    cout << prompt;
+//     cout << prompt;
 
-    cin >> ch;
-    number = ch;
+//     cin >> ch;
+//     number = ch;
 
-    cout << "The character " << ch
-         << " has code " << number << endl;
+//     cout << "The character " << ch
+//          << " has code " << number << endl;
 
-    cout << uppercase
-         << "      octal  decimal  hexadecimal\n "
-         << oct << setw(8) << number
-         << dec << setw(8) << number
-         << hex << setw(8) << number << endl;
+//     cout << uppercase
+//          << "      octal  decimal  hexadecimal\n "
+//          << oct << setw(8) << number
+//          << dec << setw(8) << number
+//          << hex << setw(8) << number << endl;
 
-    return 0;
-}
+//     return 0;
+// }
