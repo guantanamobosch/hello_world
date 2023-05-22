@@ -667,16 +667,16 @@
 // -------------------------
 // 🛶 Boolean outputs (boolalpha)
 
-#include <iostream>
-#include <iomanip>
+// #include <iostream>
+// #include <iomanip>
 
-using namespace std;
+// using namespace std;
 
-int main()
-{
-    bool ok = true;
-    cout << ok << endl               // 1
-         << boolalpha << ok << endl; // true
+// int main()
+// {
+//     bool ok = true;
+//     cout << ok << endl               // 1
+//          << boolalpha << ok << endl; // true
 
-    return 0;
-}
+//     return 0;
+// }
