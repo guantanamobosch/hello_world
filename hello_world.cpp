@@ -278,7 +278,7 @@
 //     return 0;
 // }
 
-// ---------------------
+// ---------------------------
 // 🛶 Mathematical standard functions
 
 // Some of these functions are available from the cmath library (#include <cmath>)
