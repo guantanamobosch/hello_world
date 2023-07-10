@@ -684,31 +684,31 @@
 // ---------------------------
 // 🛶 Formatted input with cin.sync(), cin.clear(), and setw()
 
-#include <iostream>
-#include <iomanip>
-#include <string>
-using namespace std;
+// #include <iostream>
+// #include <iomanip>
+// #include <string>
+// using namespace std;
 
-int main()
-{
-    string label;
-    double price;
+// int main()
+// {
+//     string label;
+//     double price;
 
-    cout << "\nPlease enter an article label: ";
+//     cout << "\nPlease enter an article label: ";
 
-    cin >> setw(16);
-    cin >> label;
+//     cin >> setw(16);
+//     cin >> label;
 
-    cin.sync();
-    cin.clear();
+//     cin.sync();
+//     cin.clear();
 
-    cout << "\nEnter the price of the article: ";
-    cin >> price;
+//     cout << "\nEnter the price of the article: ";
+//     cin >> price;
 
-    cout << fixed << setprecision(2)
-         << "\nArticle:"
-         << "\n  Label:  " << label
-         << "\n  Price:  " << price << endl;
+//     cout << fixed << setprecision(2)
+//          << "\nArticle:"
+//          << "\n  Label:  " << label
+//          << "\n  Price:  " << price << endl;
 
-    return 0;
-}
+//     return 0;
+// }
