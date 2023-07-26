@@ -494,3 +494,35 @@
 
 //     return 0;
 // }
+
+// -----------------------
+// 🛶 Learn from your mistakes!
+
+// removed spaces after '#'
+// gave <string> its own '#include' line
+// changed '# include <stdlib>' to '#include <cstdlib>'
+// #include <iostream>
+// #include <string>
+
+// #include <cstdlib> // removes the need to call something like 'void srand(seed)',
+//                    // as this library includes that prototype and others
+
+// using namespace std;
+
+// int main()
+// {
+//     string message("\nLearn from your mistakes!");
+//     cout << message << endl;
+
+//     // 'message.length()' instead of 'length(message)';
+//     int len = message.length();
+//     cout << "Length of the string: " << len << endl;
+
+//     // And a random number in additon:
+//     int b;      // variable 'a' is not needed
+//     srand(12);  // instead of 'a = srand(12.5);'
+//     b = rand(); // instead of 'b = rand(a);'
+//     cout << "\nRandom number: " << b << endl;
+
+//     return 0;
+// }
