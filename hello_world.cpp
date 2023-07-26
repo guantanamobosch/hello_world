@@ -526,3 +526,30 @@
 
 //     return 0;
 // }
+
+// -------------------------------
+// 🛶 "I have learned something new again!"
+
+// #include <iostream>
+// #include <string>
+// using namespace std;
+
+// int main()
+// {
+//     string message("I have learned something new again!\n"),
+//         prompt("Please input two lines of text:"),
+//         str1, str2, sum;
+
+//     cout << message << endl;
+
+//     // why does the prompt only ask for two lines if there is a sum variable defined above in essentially the same way that the two strings are defined?
+//     cout << prompt << endl;
+
+//     getline(cin, str1);
+//     getline(cin, str2);
+
+//     sum = str1 + " * " + str2;
+//     cout << sum << endl;
+
+//     return 0;
+// }
