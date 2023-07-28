@@ -566,10 +566,26 @@
 //     int number;
 //     cout << "Please enter an integer: ";
 //     cin >> number;
-//     cout << uppercase
+//     cout << uppercase                                // 〜waves in the (output) stream
 //          << " octal  \t decimal  \t hexadecimal\n "
 //          << oct << number << "       \t "
 //          << dec << number << "       \t "
 //          << hex << number << endl;
+//     return 0;
+// }
+
+// ------------------------------------
+// 🛶 Setprecision, precision, showpoint, fixed, scientific))
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     double x = 12.0;
+//     cout.precision(2); // Precision: 2
+//     cout << " By default:   " << x << endl;
+//     cout << " showpoint:    " << showpoint << x << endl;
+//     cout << " fixed:        " << fixed << x << endl;
+//     cout << " scientific    " << scientific << x << endl;
 //     return 0;
 // }
