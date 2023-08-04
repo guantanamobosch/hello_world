@@ -645,3 +645,21 @@
 
 //     return 0;
 // }
+
+// -------------------------
+// 🛶 Spring flowers???
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    string s("spring flowers");
+    cout << left
+         << setfill('?')
+         << setw(20) << s;
+
+    return 0;
+}
