@@ -1,4 +1,4 @@
-// ------------------------
+// -------------------------
 // 🛶 Hello World
 
 // "comprises conventions for input and output streams"
